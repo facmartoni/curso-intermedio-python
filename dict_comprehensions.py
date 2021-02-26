@@ -2,7 +2,8 @@ def run():
     my_dict = {}
 
     for i in range(1, 101):
-        my_dict[i] = i**2
+        if i % 3 !=0:
+            my_dict[i] = i**2
 
     print(my_dict)
 
